@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNOpenAppSettings } = NativeModules;
+const { OpenAppSettings } = NativeModules;
 
-export default RNOpenAppSettings;
+export default OpenAppSettings;

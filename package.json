@@ -1,8 +1,8 @@
 
 {
-  "name": "react-native-open-app-settings",
+  "name": "react-native-settings",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cross-Platform React Native module exposing native application settings.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,15 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
+  "author": "Nick Martin <nick.martin@thekrazycouponlady.com>",
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "homepage": "https://github.com/KrazyCouponLady/react-native-settings",
+  "bugs": "https://github.com/KrazyCouponLady/react-native-settings/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:KrazyCouponLady/react-native-settings.git"
   }
 }
