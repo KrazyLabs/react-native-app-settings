@@ -1,7 +1,6 @@
-
 {
   "name": "react-native-app-settings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-Platform React Native module exposing native application settings.",
   "main": "index.js",
   "scripts": {
