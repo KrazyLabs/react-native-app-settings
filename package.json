@@ -13,7 +13,7 @@
   "author": "Nick Martin <nick.martin@thekrazycouponlady.com>",
   "license": "",
   "peerDependencies": {
-    "react-native": "0.40.x"
+    "react-native": ">=0.44.0"
   },
   "homepage": "https://github.com/KrazyLabs/react-native-app-settings",
   "bugs": "https://github.com/KrazyLabs/react-native-app-settings/issues",
