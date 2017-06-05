@@ -39,6 +39,6 @@
 ```javascript
 import OpenAppSettings from 'react-native-settings'
 
-RNOpenAppSettings.open()
+OpenAppSettings.open()
 ```
   
