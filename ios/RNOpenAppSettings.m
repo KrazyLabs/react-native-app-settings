@@ -3,11 +3,13 @@
 
 @implementation RNOpenAppSettings
 
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
+RCT_EXPORT_MODULE(OpenAppSettings)
+
+RCT_EXPORT_METHOD(open){
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+    });
 }
-RCT_EXPORT_MODULE()
 
 @end
   
