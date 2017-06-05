@@ -1,6 +1,6 @@
 
 # react-native-settings
-<img src="ios.gif"/>
+<img src="https://github.com/KrazyLabs/react-native-app-settings/raw/master/ios.gif"/>
 
 
 ## Getting started
