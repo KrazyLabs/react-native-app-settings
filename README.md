@@ -1,6 +1,7 @@
 
 # react-native-settings
-![alt text](ios.gif)
+<img src="ios.gif"/>
+
 
 ## Getting started
 
