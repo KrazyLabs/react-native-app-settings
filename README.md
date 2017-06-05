@@ -1,5 +1,6 @@
 
 # react-native-settings
+![alt text](ios.gif)
 
 ## Getting started
 
