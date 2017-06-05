@@ -5,11 +5,11 @@
 
 ## Getting started
 
-`$ npm install react-native-settings --save`
+`$ npm install react-native-app-settings --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-settings`
+`$ react-native link react-native-app-settings`
 
 ### Manual installation
 
@@ -28,18 +28,18 @@
   - Add `new OpenAppSettingsPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-settings'
-  	project(':react-native-settings').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-settings/android')
+  	include ':react-native-app-settings'
+  	project(':react-native-app-settings').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-app-settings/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-settings')
+      compile project(':react-native-app-settings')
   	```
 
 
 ## Usage
 ```javascript
-import OpenAppSettings from 'react-native-settings'
+import OpenAppSettings from 'react-native-app-settings'
 
 OpenAppSettings.open()
 ```

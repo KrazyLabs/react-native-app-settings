@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-settings",
+  "name": "react-native-app-settings",
   "version": "1.0.0",
   "description": "Cross-Platform React Native module exposing native application settings.",
   "main": "index.js",
@@ -15,10 +15,10 @@
   "peerDependencies": {
     "react-native": "0.40.x"
   },
-  "homepage": "https://github.com/KrazyLabs/react-native-settings",
-  "bugs": "https://github.com/KrazyLabs/react-native-settings/issues",
+  "homepage": "https://github.com/KrazyLabs/react-native-app-settings",
+  "bugs": "https://github.com/KrazyLabs/react-native-app-settings/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com:KrazyLabs/react-native-settings.git"
+    "url": "git://github.com:KrazyLabs/react-native-app-settings.git"
   }
 }
