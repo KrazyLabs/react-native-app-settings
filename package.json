@@ -15,10 +15,10 @@
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
-  "homepage": "https://github.com/KrazyCouponLady/react-native-settings",
-  "bugs": "https://github.com/KrazyCouponLady/react-native-settings/issues",
+  "homepage": "https://github.com/KrazyLabs/react-native-settings",
+  "bugs": "https://github.com/KrazyLabs/react-native-settings/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com:KrazyCouponLady/react-native-settings.git"
+    "url": "git://github.com:KrazyLabs/react-native-settings.git"
   }
 }
