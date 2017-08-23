@@ -18,7 +18,7 @@ public class OpenAppSettingsPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new OpenAppSettingsModule(reactContext));
     }
 
-    @Override
+    // deprecated in RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
