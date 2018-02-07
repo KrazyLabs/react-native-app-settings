@@ -23,9 +23,10 @@
 
 #### Android
 
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
+1. Open up `android/app/src/main/java/[...]/MainApplication.java`
   - Add `import com.krazylabs.OpenAppSettingsPackage;` to the imports at the top of the file
   - Add `new OpenAppSettingsPackage()` to the list returned by the `getPackages()` method
+  - If the `getPackages()` method does not exist, you may have initialized your project with an older version of RN. If so, look in `MainActivity.java` instead.
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-app-settings'
