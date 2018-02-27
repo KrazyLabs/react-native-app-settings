@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/KrazyLabs/react-native-app-settings"
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/KrazyLabs/react-native-app-settings.git", :tag => "master" }
-  s.source_files  = "ios/RNOpenAppSettings/**/*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
 
 
