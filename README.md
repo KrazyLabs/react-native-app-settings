@@ -25,7 +25,7 @@
 
 ##### Cocoapod integration
 
-1. In `ios/Podfile`, inside your main target, add the line `pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'`
+1. In `ios/Podfile`, inside your main target, add the line `pod 'RNOpenAppSettings', :path => '../node_modules/react-native-app-settings'`
 
 #### Android
 
